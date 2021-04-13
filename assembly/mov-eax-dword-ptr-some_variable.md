@@ -22,3 +22,5 @@ this would instruct to take the address of "variable", then add value of ebx and
 
 In all these cases the processor would do the same - load a value from a specified address. It's one level of indirection each time.
 
+[https://stackoverflow.com/questions/688799/dword-ptr-usage-confusion](https://stackoverflow.com/questions/688799/dword-ptr-usage-confusion)
+
