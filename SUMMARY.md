@@ -6,5 +6,6 @@
 ## Assembly
 
 * [and-esp-0xfffffff0](assembly/and-esp-0xfffffff0.md)
+* [mov eax, dword ptr some\_variable](assembly/mov-eax-dword-ptr-some_variable.md)
 * [Untitled](assembly/untitled.md)
 
