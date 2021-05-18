@@ -16,6 +16,8 @@ The TEST instruction performs an implied AND operation between corresponding bit
 
 reg, mem, and immed can be 8, 16, or 32 bits.
 
+
+
 The [`test eax, eax`](https://en.wikipedia.org/wiki/TEST_%28x86_instruction%29) is the same as `and eax, eax` \(bitwise `and`\) _except_ that it doesn't store the result in `eax`. So `eax` isn't affected by the test, but the zero-flag is, for example.
 
 The `test eax, eax` is necessary to make the `jne` work in the first place. And `jne` is the same as `jnz`, just as `je` is the same as `jz`. Both act based on the ZF \(zero-flag\) value.
